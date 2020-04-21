@@ -1,0 +1,161 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=59;
+	taxlabels
+	Achatinella_apexfulva[&!color=#ff6666,!name="AAP1"]
+	Achatinella_bulimoides[&!color=#ff6666,!name="ABU1"]
+	Achatinella_concavospira[&!color=#ff6666,!name="ACO1"]
+	Achatinella_fulgens_Kului_Gulch[&!color=#ff6666,!name="AFUL1"]
+	Achatinella_fulgens_Pia_Valley[&!color=#ff6666,!name="AFUL2"]
+	Achatinella_fuscobasis[&!color=#ff6666,!name="AFUS1"]
+	Achatinella_lila_290[&!color=#ff6666,!name="ALI2"]
+	Achatinella_lila_Poamoho_lab_pop[&!color=#ff6666,!name="ALI3"]
+	Achatinella_lila_Poamoho_wild[&!color=#ff6666,!name="ALI1"]
+	Achatinella_mustelina_Culvert_39[&!color=#ff6666,!name="AMU 5"]
+	Achatinella_mustelina_Culvert_56[&!color=#ff6666,!name="AMU6"]
+	Achatinella_mustelina_Ekahanui[&!color=#ff6666,!name="AMU14"]
+	Achatinella_mustelina_H1H4[&!color=#ff6666,!name="AMU16"]
+	Achatinella_mustelina_Haleauau[&!color=#ff6666,!name="AMU8"]
+	Achatinella_mustelina_Kaawa[&!color=#ff6666,!name="AMU20"]
+	Achatinella_mustelina_Kahanahaiki[&!color=#ff6666,!name="AMU1"]
+	Achatinella_mustelina_Kaluaa_K1K6[&!color=#ff6666,!name="AMU18"]
+	Achatinella_mustelina_MAKF[&!color=#ff6666,!name="AMU22"]
+	Achatinella_mustelina_MAKG[&!color=#ff6666,!name="AMU21"]
+	Achatinella_mustelina_Makaha[&!color=#ff6666,!name="AMU10"]
+	Achatinella_mustelina_NH1NH4[&!color=#ff6666,!name="AMU17"]
+	Achatinella_mustelina_Ohikilolo[&!color=#ff6666,!name="AMU4"]
+	Achatinella_mustelina_Pahole[&!color=#ff6666,!name="AMU2"]
+	Achatinella_mustelina_Palikea[&!color=#ff6666,!name="AMU15"]
+	Achatinella_mustelina_Puu_Hapapa[&!color=#ff6666,!name="AMU12"]
+	Achatinella_mustelina_Puu_Kalena[&!color=#ff6666,!name="AMU12"]
+	Achatinella_mustelina_Puu_Kumakalii[&!color=#ff6666,!name="AMU13"]
+	Achatinella_mustelina_S1S6[&!color=#ff6666,!name="AMU19"]
+	Achatinella_mustelina_SBWR[&!color=#ff6666,!name="AMU9"]
+	Achatinella_mustelina_Skeet_Pass[&!color=#ff6666,!name="AMU7"]
+	Achatinella_mustelina__Koiahi[&!color=#ff6666,!name="AMU3"]
+	Achatinella_sowerbyana_290_Summit[&!color=#ff6666,!name="ASO3"]
+	Achatinella_sowerbyana_290_Windward[&!color=#ff6666,!name="ASO2"]
+	Achatinella_sowerbyana_Hypalon[&!color=#ff6666,!name="ASO5"]
+	Achatinella_sowerbyana_Opaeula[&!color=#ff6666,!name="ASO6"]
+	Achatinella_sowerbyana_Poamoho_Summit[&!color=#ff6666,!name="ASO1"]
+	Achatinella_sowerbyana_Poamoho_Trail[&!color=#ff6666,!name="ASO4"]
+	Achatinella_unknown[&!color=#ff6666,!name="AUN1"]
+	Auriculella_crassula[&!name="ACR1"]
+	Auriculella_sp_Poamoho[&!name="AUR1"]
+	Newcombia_cumingi[&!name="NCU1"]
+	Partulina_cf_perdix_terebra[&!color=#3333ff,!name="PTER1"]
+	Partulina_mighelsiana[&!color=#3333ff,!name="PMI1"]
+	Partulina_perdix_1[&!color=#3333ff,!name="PPE1"]
+	Partulina_perdix_2[&!color=#3333ff,!name="PPE2"]
+	Partulina_physa_lab[&!color=#3333ff,!name="PPH1"]
+	Partulina_proxima_1[&!color=#3333ff,!name="PPR1"]
+	Partulina_proxima_2[&!color=#3333ff,!name="PPR2"]
+	Partulina_proxima_3_13017[&!color=#3333ff,!name="PPR3"]
+	Partulina_redfieldi_2[&!color=#3333ff,!name="PRE2"]
+	Partulina_redfieldi_3[&!color=#3333ff,!name="PRE3"]
+	Partulina_redfieldi_4[&!color=#3333ff,!name="PRE4"]
+	Partulina_semicarinata_lab[&!color=#3333ff,!name="PSE1"]
+	Partulina_tesselata_1[&!color=#3333ff,!name="PTE1"]
+	Partulina_variabilis_wild_combined[&!color=#3333ff,!name="PVA1"]
+	Perdicella_helena_1[&!color=#ff33ff,!name="PHE1"]
+	Perdicella_helena_2[&!name="PHE2",!color=#ff33cc]
+	Perdicella_sp_Maui[&!color=#ff33ff,!name="PER1"]
+	Tornitillides_irregularis[&!name="TIR1"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Tornitillides_irregularis:0.336132,(Auriculella_crassula:0.059977,Auriculella_sp_Poamoho:0.104313)[&bootsrap=1000]:0.300638,(((Achatinella_fulgens_Kului_Gulch:0.030437,Achatinella_fulgens_Pia_Valley:0.028108)[&bootsrap=1000]:0.095721,(Partulina_tesselata_1:0.11088,(Partulina_physa_lab:0.073866,(Newcombia_cumingi:0.077859,(Partulina_redfieldi_4:0.005935,(Partulina_redfieldi_3:0.010279,Partulina_redfieldi_2:0.004519)[&bootsrap=1000]:0.007836)[&bootsrap=1000]:0.080517)[&bootsrap=998]:0.014659)[&bootsrap=1000]:0.026598)[&bootsrap=983]:0.011725)[&bootsrap=1000]:0.029278,(((((Achatinella_sowerbyana_Poamoho_Trail:0.00223,Achatinella_sowerbyana_Poamoho_Summit:0.002698)[&bootsrap=1000,!rotate=true]:0.023757,(Achatinella_sowerbyana_290_Summit:0.008273,(Achatinella_sowerbyana_Opaeula:0.001342,(Achatinella_sowerbyana_Hypalon:0.00208,Achatinella_sowerbyana_290_Windward:0.010019)[&bootsrap=875,!rotate=true]:0.00158)[&bootsrap=1000]:0.006993)[&bootsrap=1000]:0.016566)[&bootsrap=1000]:0.060664,(Achatinella_apexfulva:0.040494,Achatinella_concavospira:0.050537)[&bootsrap=1000,!rotate=true]:0.048551)[&bootsrap=1000]:0.029275,((((Achatinella_mustelina_Kahanahaiki:0.003864,Achatinella_mustelina_Pahole:0.003742)[&bootsrap=1000]:0.017581,((Achatinella_mustelina_Kaawa:0.033786,Achatinella_mustelina_Culvert_56:0.00374)[&bootsrap=838]:0.001558,(Achatinella_mustelina_Ohikilolo:0.004715,(Achatinella_mustelina_Culvert_39:0.002488,Achatinella_mustelina__Koiahi:0.00205)[&bootsrap=999,!rotate=true]:0.002349)[&bootsrap=985]:0.001658)[&bootsrap=1000]:0.020204)[&bootsrap=1000,!rotate=true]:0.01208,(Achatinella_mustelina_Haleauau:0.007932,Achatinella_mustelina_Skeet_Pass:0.050463)[&bootsrap=960,!rotate=true]:0.020988)[&bootsrap=1000]:0.047776,((Achatinella_mustelina_Puu_Hapapa:0.017608,((Achatinella_mustelina_Puu_Kalena:0.008229,(Achatinella_mustelina_Puu_Kumakalii:0.00469,(Achatinella_mustelina_SBWR:0.003673,Achatinella_mustelina_S1S6:0.023683)[&bootsrap=820]:0.001383)[&bootsrap=998,!rotate=true]:0.002871)[&bootsrap=999]:0.005296,(Achatinella_mustelina_Makaha:0.027538,(Achatinella_mustelina_MAKG:0.033375,Achatinella_mustelina_MAKF:0.007123)[&bootsrap=996]:0.003768)[&bootsrap=988]:0.002652)[&bootsrap=993,!rotate=false]:0.006474)[&bootsrap=1000]:0.023558,(Achatinella_mustelina_Palikea:0.017439,(Achatinella_mustelina_Ekahanui:0.011362,(Achatinella_mustelina_H1H4:0.006492,(Achatinella_mustelina_NH1NH4:0.030657,Achatinella_mustelina_Kaluaa_K1K6:0.015308)[&bootsrap=869]:0.004759)[&bootsrap=1000]:0.015073)[&bootsrap=998,!rotate=true]:0.009594)[&bootsrap=1000,!rotate=true]:0.019511)[&bootsrap=1000]:0.03991)[&bootsrap=1000,!rotate=true]:0.026711)[&bootsrap=1000]:0.016126,(Achatinella_fuscobasis:0.115674,(((((Perdicella_helena_2:0.004345,Perdicella_helena_1:0.003391)[&bootsrap=1000,!rotate=true]:0.056256,(Partulina_proxima_3_13017:0.03679,(Partulina_proxima_2:0.005511,Partulina_proxima_1:0.00953)[&bootsrap=1000,!rotate=true]:0.019073)[&bootsrap=1000]:0.035756)[&bootsrap=1000]:0.036575,(Partulina_perdix_1:0.053447,(Partulina_perdix_2:0.054177,Partulina_cf_perdix_terebra:0.024393)[&bootsrap=1000,!rotate=true]:0.048302)[&bootsrap=1000]:0.049785)[&bootsrap=999]:0.019646,((Partulina_variabilis_wild_combined:0.011668,Partulina_semicarinata_lab:0.008841)[&bootsrap=1000,!rotate=true]:0.080618,(Perdicella_sp_Maui:0.066047,Partulina_mighelsiana:0.0617)[&bootsrap=1000]:0.028077)[&bootsrap=998]:0.017973)[&bootsrap=726]:0.011565,(Achatinella_bulimoides:0.132474,(Achatinella_unknown:0.126124,(Achatinella_lila_Poamoho_lab_pop:0.0035,(Achatinella_lila_290:0.010026,Achatinella_lila_Poamoho_wild:0.021886)[&bootsrap=1000,!rotate=true]:0.006382)[&bootsrap=1000]:0.075226)[&bootsrap=626]:0.005733)[&bootsrap=1000]:0.027491)[&bootsrap=439,!rotate=true]:0.006857)[&bootsrap=599,!rotate=true]:0.008881)[&bootsrap=600]:0.012489)[&bootsrap=1000]:0.517963);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="bootsrap";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="bootsrap";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="bootsrap";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="Names";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
