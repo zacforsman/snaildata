@@ -11,3 +11,4 @@ Multiple sequence alignments and trees from:
 |mtgenome_alignment_59_Achatinellinae_refinegapsstrip60.phy| Alignment with columns with > 60% of gaps stripped|
 |mtdna_phymlgap60.nwk | PhyML tree of alignment with columns with > 60% of gaps stripped |
 |SNPs_min_filtered_RAxML_manualcoustom.nwk| Minimally filtered genome wide SNP RAxML tree |
+|mtgenome_IQ-TREE.nwk | Partitioned and modeled mitochondrial genome tree |
